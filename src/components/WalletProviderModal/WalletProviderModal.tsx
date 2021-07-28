@@ -41,9 +41,9 @@ const WalletProviderModal: React.FC<ModalProps> = ({ onDismiss }) => {
               />
               <Spacer />
               <WalletCard
-                icon={<img src={trustLogo} alt='BSC' style={{ height: 32 }} />}
-                onConnect={() => connect('walletconnect')}
-                title="Wallet connect"
+              icon={<img src={trustLogo} alt='Trust' style={{ height: 32 }} />}
+              onConnect={() => connect('injected')}
+              title="Trust Wallet"
               />
             </StyledWalletCard>
           </StyledWalletsWrapper>
